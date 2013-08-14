@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Quiz name="Test Quiz" difficulty="Easy">
+  <Question id="1" maxPoints="3">
+    <Text>Who are you?</Text>
+    <Answer id="1" points="3">
+      <Text>Steven Law</Text>
+      <Explanation>That is my name</Explanation>
+    </Answer>
+    <Answer id="2" points="2">
+      <Text>Pickle Joe</Text>
+      <Explanation>Who would name their kid Pickle?  Is Joe the family name?</Explanation>
+    </Answer>
+    <Answer id="3" points="1">
+      <Text>Blaaargh</Text>
+      <Explanation>What?!?!?!?!</Explanation>
+    </Answer>
+  </Question>
+  <Question id="2" maxPoints="3">
+    <Text>What is your favorite colour?</Text>
+    <Answer id="1" points="0">
+      <Text>Red</Text>
+      <Explanation>Wait no Green.</Explanation>
+    </Answer>
+    <Answer id="2" points="0">
+      <Text>Blue</Text>
+      <Explanation>I think?</Explanation>
+    </Answer>
+    <Answer id="3" points="0">
+      <Text>Green</Text>
+      <Explanation>Aaaaaargh?</Explanation>
+    </Answer>
+  </Question>
+  <Question id="3" maxPoints="3">
+    <Text>This is the last test</Text>
+    <Answer id="1" points="3">
+      <Text>Yes it is</Text>
+      <Explanation>Obviously.</Explanation>
+    </Answer>
+  </Question>
+</Quiz>
