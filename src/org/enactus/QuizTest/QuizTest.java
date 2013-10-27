@@ -54,6 +54,19 @@ public class QuizTest {
 		catch (Exception e){
 			e.printStackTrace();
 		}
+		
+		try{
+			// Replace the URI with a location where one or more quiz file actually exists without any
+			// other xml files
+			ArrayList<QuizCatalogItem> catalog = QuizXmlReader.getQuizCatalog(
+					"C:/Dropbox/Enactus/Dream Centre App Development/Questions for apps");
+			for(QuizCatalogItem item : catalog) {
+				System.out.println(item.getName() + " - " + item.getDifficulty());
+			}
+		}
+		catch (Exception e){
+			e.printStackTrace();
+		}
 	}
 
 }
